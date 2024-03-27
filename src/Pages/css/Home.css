@@ -1,0 +1,139 @@
+
+.Home{
+    margin-top: 30px;
+   
+}
+.homeImg{
+    display: flex;
+    justify-content: center;
+}
+.homeImg img{
+    width: 90%;
+    max-height: 600px;
+    max-width: 890px;
+}
+.HomeInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    letter-spacing: 3px;
+    height: 150px;
+    margin: 80px auto 10px auto;
+}
+.HomeDate{
+    padding: 0 50px;
+    border-right: 1px solid black;
+    width: 315px;
+    height: 120px;
+    font-size: 40px;
+    font-weight: 400;
+
+
+}
+.HomeLocation{
+    padding: 0 50px;
+    width: 315px;
+    height: 120px;
+    font-size: 40px;
+    font-weight: 400;
+
+}
+.rsvp-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 110px;
+    height: 50px;
+    font-size: 22px;
+    margin: auto;
+    letter-spacing: 2px;
+}
+.rsvp-btn:hover{
+    opacity: 0.9;
+    color: white;
+}
+
+.WeddingInfo{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.WeddingDay{
+    font-size: 33px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.WeddingDate{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: 'EB Garamond', serif;
+}
+.WeddingTime{
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.Title{
+    margin: 40px auto;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.HomeText{
+    margin: 1.1em auto;
+    max-width: 550px;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #231f20;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+@media (max-width:768px) {
+    .homeImg img{
+        width: 100%;
+    }
+    .HomeDate, .HomeLocation{
+        font-size: 30px;
+    }
+}
+@media (max-width:640px) {
+    .HomeDate, .HomeLocation{
+        font-size: 24px;
+    }
+}
+@media (max-width:540px) {
+    .HomeInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        
+    }
+    .HomeDate{
+        border-right: none;
+        border-bottom: 1px solid black;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .HomeLocation{
+        text-align: center;
+    }
+}
+@media (max-width:400px) {
+    .HomeDate, .HomeLocation{
+        font-size: 20px;
+    }
+}

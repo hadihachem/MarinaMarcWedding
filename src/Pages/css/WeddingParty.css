@@ -1,0 +1,65 @@
+.WeddingImg {
+    background: linear-gradient(rgba(0,0,0,0.1),black),url(../../Components/Images/pexels-asad-photo-maldives-169188.jpg);
+    padding: 20px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    max-width: 800px;
+    min-height: 400px;
+    height: 70%;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+}
+
+.WeddingImg p {
+    margin: 1.1em auto;
+    max-width: 550px;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #231f20;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500;
+}
+.text-content{
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.WeddingText{
+    margin: 1.1em auto;
+    max-width: 567px;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #231f20;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.WeddingTitle{
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.WeddingLocation{
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    border-bottom: 2px solid black;
+    letter-spacing: 1px;
+}

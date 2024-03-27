@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Cormorant Infant', serif;
+}
+
+
+a{
+  text-decoration: none;
+  color: #231f20;
+
+}
+a:hover{
+  color: #231f20;
+}
