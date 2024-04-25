@@ -2,17 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './css/stay.css';
 
-import img1 from '../Components/Images/Img1.webp'
-import img2 from '../Components/Images/2.webp';
-import img3 from '../Components/Images/3.webp';
-import img4 from '../Components/Images/4.webp';
-import img5 from '../Components/Images/5.webp';
-import img6 from '../Components/Images/6.webp';
-import img7 from '../Components/Images/7.webp';
-import img8 from '../Components/Images/8.webp';
-import img9 from '../Components/Images/9.webp';
-import img10 from '../Components/Images/10.webp';
-import img11 from '../Components/Images/11.webp';
+import img1 from '../Components/Images/Img1.jpeg'
+import img2 from '../Components/Images/Img2.jpeg';
+import img3 from '../Components/Images/Img3.jpeg';
+import img4 from '../Components/Images/Img4.jpeg';
+import img5 from '../Components/Images/Img5.jpeg';
+import img6 from '../Components/Images/Img6.webp';
+import img7 from '../Components/Images/Img7.jpeg';
+import img8 from '../Components/Images/Img8.jpeg';
+import img9 from '../Components/Images/Img9.jpg';
+import img10 from '../Components/Images/Img10.jpg';
+import img11 from '../Components/Images/Img11.jpg';
 import img12 from '../Components/Images/12.webp';
 import img13 from '../Components/Images/13.webp';
 import img14 from '../Components/Images/14.webp';
@@ -33,18 +33,20 @@ import img25 from '../Components/Images/25.webp';
 
 const StayPics = () => {
   return (
-    <div className='sideImg'>
       <div className="container">
-        <div className="WeddingText stay">
-          <p>
-            Lebanon is an amazing country. For those of you who haven't been, we highly recommend staying 1 week before the wedding as we will have time to take care of you together with our amazing friends from "SHOW ME LEBANON". Emile and Hala have been running a small tour operator for years and are absolute experts.
-          </p>
-          <br />
-          <p><b>Security Notice:</b></p>
-          <p>It's safe! It has the same levels of safety as all major German cities. So don't worry!!</p>
-          <p>This is our proposed program. But you are absolutely free to do whatever and whenever you want. We can also organize private tours. Please let us know well in advance.</p>
+        <div className="StayImg">
+          <div className="text-contentstay">
+          <p>Lebanon is an extraordinary place to visit. If you haven't been here before, we highly recommend arriving a week ahead of the wedding so we can ensure that you are well taken care of and comfortable.          </p>
+          <p>This is our proposed program. But you are absolutely free to do whatever and whenever you want. </p>
+          </div>
+        </div>
+        <div className="StayText stay">
 
-          <h3 className='WeddingTitle'>SUNDAY (28.08.2022)</h3>
+          <br />
+
+          <h1 className='text-center'>Places To Visit</h1>
+          <div className="daySchedule">
+          <h3 className='WeddingTitle'>SUNDAY (16.06.2024)</h3>
           <p>
             Daytime: Visit Beirut
             <br />
@@ -63,7 +65,10 @@ const StayPics = () => {
             <br />
             - MIM Museum: Amazing collection of precious stones <b><Link to="https://maps.app.goo.gl/GSZEoBoxWgUNGM5v5">(Link)</Link></b>
           </p>
-          <h3 className='WeddingTitle'>Monday (29.08.2022)</h3>
+          </div>
+          <div className="daySchedule">
+
+          <h3 className='WeddingTitle'>Monday (17.06.2024)</h3>
           <p>
             Daytime:
             <br />
@@ -96,7 +101,10 @@ const StayPics = () => {
             <br />
             - Kina: handcraft bar <b><Link to="https://maps.app.goo.gl/n8avQmWCuV3jB8Ma9">(Link)</Link></b>
           </p>
-          <h3 className='WeddingTitle'>Tuesday (30.08.2022)</h3>
+          </div>
+          <div className="daySchedule">
+
+          <h3 className='WeddingTitle'>Tuesday (18.06.2024)</h3>
           <p>
             Daytime:
             <br />
@@ -118,7 +126,10 @@ const StayPics = () => {
             <br />
             - Kina: handcraft bar <b><Link to="https://maps.app.goo.gl/n8avQmWCuV3jB8Ma9">(Link)</Link></b>
           </p>
-          <h3 className='WeddingTitle'>Wednesday (31.08.2022)</h3>
+          </div>
+          <div className="daySchedule">
+
+          <h3 className='WeddingTitle'>Wednesday (19.06.2024)</h3>
           <p>
             Daytime:
             <br />
@@ -138,7 +149,10 @@ const StayPics = () => {
             <br />
             - Kina: handcraft bar <b><Link to="https://maps.app.goo.gl/n8avQmWCuV3jB8Ma9">(Link)</Link></b>
           </p>
-          <h3 className='WeddingTitle'>Thursday (01.09.2022)</h3>
+          </div>
+          <div className="daySchedule">
+
+          <h3 className='WeddingTitle'>Thursday (20.06.2024)</h3>
           <p>
             Daytime:
             <br />
@@ -154,7 +168,10 @@ const StayPics = () => {
             Enjoy Sunset Drinks at Pierre & Friends <b><Link to="https://maps.app.goo.gl/jJdSkMN1Sqf8vw4Q7">(Link)</Link></b>
           </p>
 
-          <h3 className='WeddingTitle'>Friday (02.09.2022)</h3>
+            </div>
+            <div className="daySchedule">
+
+          <h3 className='WeddingTitle'>Friday (21.06.2024)</h3>
           <p>
             Daytime:
             <br />
@@ -173,7 +190,10 @@ const StayPics = () => {
             <br />
             - Kina: handcraft bar <b><Link to="https://maps.app.goo.gl/n8avQmWCuV3jB8Ma9">(Link)</Link></b>
           </p>
-          <h3 className='WeddingTitle'>Saturday (03.09.2022)</h3>
+          </div>
+          <div className="daySchedule">
+
+          <h3 className='WeddingTitle'>Saturday (22.06.2024)</h3>
           <p>
 
             {/* linksssssssssssssssssssssss not donee */}
@@ -191,8 +211,8 @@ const StayPics = () => {
           <p>
             Evening: Wedding Party
           </p>
-          <h3 className='WeddingTitle'>Sunday (04.09.2022)</h3>
-          <p>SLEEP!</p>
+          </div>
+          
         </div>
 
         <div className="images">
@@ -222,7 +242,6 @@ const StayPics = () => {
           <img src={img25} alt="Image 25" />
         </div>
       </div>
-    </div>
   );
 };
 

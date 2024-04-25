@@ -57,7 +57,16 @@
     opacity: 0.9;
     color: white;
 }
-
+.borderBottom{
+    border-bottom: 2px solid black;
+    
+    width: 60%;
+    max-width: 400px;
+    margin-top: 50px;;
+}
+.superBold{
+    font-weight: 900;
+}
 .WeddingInfo{
     margin-top: 90px;
     display: flex;
@@ -79,7 +88,6 @@
 }
 .WeddingTime{
     font-family: 'EB Garamond', serif;
-    font-style: italic;
     font-weight: 400;
 }
 .Title{

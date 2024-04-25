@@ -60,19 +60,19 @@
 }
 
 .dropdown-content i {
-    padding: 10px;
+    padding: 15px;
     z-index: 1000000;
-    position: absolute;
-    top: 5px;;
+    position:absolute;
+    font-size: 25px;
+    top: 3px;
     left: 5px;
 
 }
 
 .dropdown-content {
-    padding: 10px;
+    padding: 15px;
     display: flex;
     color: #231f20;
-    height: 55x;
 }
 
 .dropdown-content h1 {

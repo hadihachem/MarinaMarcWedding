@@ -32,19 +32,16 @@ const Navbar = () => {
                 <Link to="/wedding-party">Wedding Party</Link>
                 {menu === "Wedding Party" ? <div className='active'></div> : <></>}
               </li>
-              <li className="item" onClick={() => { setMenu("Accomodations & Pick-up"); setNavbar(!navbar);scrollToTop() }}>
+              <li className="item" onClick={() => { setMenu("Accomodations"); setNavbar(!navbar);scrollToTop() }}>
                 <Link to="/accommodations">Accomodations & Pick-up</Link>
-                {menu === "Accomodations & Pick-up" ? <div className='active'></div> : <></>}
+                {menu === "Accomodations" ? <div className='active'></div> : <></>}
 
               </li>
               <li className="item" onClick={() => { setMenu("Your Stay & Pictures"); setNavbar(!navbar);scrollToTop() }}>
                 <Link to="/stay-pics">Your Stay & Pictures</Link>
                 {menu === "Your Stay & Pictures" ? <div className='active'></div> : <></>}
               </li>
-              {/* <li className="item" onClick={() => { setMenu("RSVP"); setNavbar(!navbar);scrollToTop() }}>
-                <Link to="/rsvp">RSVP</Link>
-                {menu === "RSVP" ? <div className='active'></div> : <></>}
-              </li> */}
+              
             </ul>
           </div>
         </div>

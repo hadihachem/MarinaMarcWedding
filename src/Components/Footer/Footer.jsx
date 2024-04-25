@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <h1 className='footer-logo'>M & M</h1>
-            <p className='footer-date'>22 . 6 . 2024</p>
+            <p className='footer-date'>22 . 06 . 2024</p>
 
             <div className="footerImg">
                 <img src={leaf} alt="" />
