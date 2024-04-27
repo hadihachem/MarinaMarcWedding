@@ -32,7 +32,7 @@ const WeddingParty = () => {
           >Ixir</b></Link> WINERY, BATROUN, followed by dinner and the unfolding of festivities.</p>
 
           <h3 className='WeddingTitle'>WHAT TO WEAR</h3>
-          <p>???</p>
+          <p>For men, suits are recommended attire, while women are advised to wear dresses.</p>
 
           <h3 className='WeddingTitle'>CUISINE</h3>
           <p>Meat enthusiasts, indulge your cravings at our live food stations. Rest assured, we've also catered to those with plant-based preferences.</p>
