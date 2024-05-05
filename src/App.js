@@ -12,7 +12,7 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="WeddingMarinaMarc">
         <Header />
         <Navbar />
         <Routes>
