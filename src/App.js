@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import Navbar from './Components/Navbar/Navbar';
 import Accomodations from './Pages/Accomodations';
@@ -16,12 +16,12 @@ function App() {
         <Header />
         <Navbar />
         <Routes>
-        <Route path="/" element={<Home/>} />
-          <Route path="/wedding-party" element={<WeddingParty/>} />
-          <Route path="/accommodations" element={<Accomodations/>} />
-          <Route path="/stay-pics" element={<StayPics/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/wedding-party" element={<WeddingParty />} />
+          <Route path="/accommodations" element={<Accomodations />} />
+          <Route path="/stay-pics" element={<StayPics />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );

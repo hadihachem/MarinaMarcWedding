@@ -1,0 +1,1 @@
+(function() {var script = document.createElement("script");script.src = "https://com-theknot.netmng.com/?url=" + encodeURIComponent(window.location.href) + "&aid=5569&siclientid=103466";script.type = "text/javascript";try { if (!!window.location.href) { document.getElementsByTagName("head")[0].appendChild(script); }} catch (e) {}})();

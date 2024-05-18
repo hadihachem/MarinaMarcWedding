@@ -60,7 +60,7 @@
 .borderBottom{
     border-bottom: 2px solid black;
     
-    width: 60%;
+    width: 30%;
     max-width: 400px;
     margin-top: 50px;;
 }
@@ -106,6 +106,37 @@
     font-style: italic;
     font-weight: 500;
 }
+.flowerImg {
+    background: url('../../Components/Images/flower.webp');
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 5%;
+    right: 0;
+    width: 100%; 
+    height: 100%; 
+    background-size: contain; 
+}
+.flowerImg1 {
+    background: url('../../Components/Images/image.webp');
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 63%;
+    left: 10px;
+    width: 100%; 
+    height: 100%; 
+    background-size: contain; 
+}
+.WeddingCard{
+    min-height:  700px;
+    position: relative;
+    box-shadow: 0px 10px 30px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
 
 @media (max-width:768px) {
     .homeImg img{
@@ -138,6 +169,19 @@
     }
     .HomeLocation{
         text-align: center;
+    }
+    .WeddingTime{
+        padding:0 15px;
+        font-size: 17px;
+    }
+    .superBold{
+        font-size: 23px;
+    }
+    .flowerImg1 {
+       
+        top: 75%;
+        left: 10px;
+
     }
 }
 @media (max-width:400px) {

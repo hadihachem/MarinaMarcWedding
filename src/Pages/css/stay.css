@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;700&family=EB+Garamond:wght@400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-.stay b{
-    font-weight: 900;
-    color: black;
-    text-decoration: underline;
-    font-style: italic;
-    font-size: 19px;
-}
+
 .images{
     display: flex;
     justify-content: center;
@@ -44,7 +38,7 @@
 .StayText{
     padding: 16px;
     margin: 1.1em auto;
-    max-width: 700px;
+    max-width: 650px;
     text-align: left;
     letter-spacing: 1px;
     color: #231f20;
@@ -64,25 +58,137 @@
     justify-content: center;
     align-items: center;
     width: auto;
-    max-width: 800px;
+    max-width: 650px;
     min-height: 400px;
     height: 70%;
     margin: auto;
 }
+.StayImg1 {
+    background: linear-gradient(rgba(0,0,0,0.1),black),url(../../Components/Images/beirut.jpg);
+    padding: 20px;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 650px;
+    min-height: 400px;
+    height: 70%;
+    border-radius: 35px ;
+
+}
+.StayImg2 {
+    background: linear-gradient(rgba(0,0,0,0.3),black),url(../../Components/Images/byblos.jpg);
+    padding: 20px;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 650px;
+    min-height: 400px;
+    height: 70%;
+    border-radius: 35px ;
+
+}
+.StayImg3 {
+    background: linear-gradient(rgba(0,0,0,0.3),black),url(../../Components/Images/faraya.jpg);
+    padding: 20px;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 650px;
+    min-height: 400px;
+    height: 70%;
+    border-radius: 35px ;
+
+}
+.StayImg4{
+    background: linear-gradient(rgba(0,0,0,0.3),black),url(../../Components/Images/batroun.webp);
+    padding: 20px;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 650px;
+    min-height: 400px;
+    height: 70%;
+    border-radius: 35px ;
+    
+}
+.StayImg5 {
+    background: linear-gradient(rgba(0,0,0,0.3),black),url(../../Components/Images/ehden.jpg);
+    padding: 20px;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 650px;
+    min-height: 400px;
+    height: 70%;
+    border-radius: 35px ;
+
+}
+.StayImg6 {
+    background: linear-gradient(rgba(0,0,0,0.3),black),url(../../Components/Images/akoura.jpg);
+    padding: 20px;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 650px;
+    min-height: 400px;
+    height: 70%;
+    border-radius: 35px ;
+
+}
+.StayImg7 {
+    background: linear-gradient(rgba(0,0,0,0.3),black),url(../../Components/Images/cedars.jpeg);
+    padding: 20px;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 650px;
+    min-height: 400px;
+    height: 70%;
+    border-radius: 35px ;
+
+}
 .text-contentstay{
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 660px;
     padding: 30px;
     font-size: 18px;
     margin: 1.1em auto;
-    max-width: 567px;
+    max-width: 490px;
     text-align: left;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #231f20;
-    font-size: 17px;
-    font-style: italic;
-    font-weight: 500;
+    font-weight: 700;
+    border-radius: 35px ;
+
 }
 
 .Stay p {
@@ -94,4 +200,10 @@
     font-size: 17px;
     font-style: italic;
     font-weight: 500;
+}
+.stay b{
+    font-weight: 900;
+    color: black;
+    font-style:italic;
+    font-size: 20px;
 }

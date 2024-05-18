@@ -33,215 +33,250 @@ import img25 from '../Components/Images/25.webp';
 
 const StayPics = () => {
   return (
-      <div className="container">
-        <div className="StayImg">
-          <div className="text-contentstay">
+    <div className="container">
+       
+      <div className="StayText stay">
+
+      <div className="contentstay"> 
           <p>Lebanon is an extraordinary place to visit. If you haven't been here before, we highly recommend arriving a week ahead of the wedding so we can ensure that you are well taken care of and comfortable.          </p>
           <p>This is our proposed program. But you are absolutely free to do whatever and whenever you want. </p>
-          </div>
         </div>
-        <div className="StayText stay">
+        <h1 className='text-center'>Places To Visit</h1>
+        <div className="daySchedule StayImg1 ">
+        <div className="text-contentstay">
 
+          <h2 className='WeddingTitle'>Beyrouth</h2>
+          <p>
+
+            - Lunch at <b><Link to="https://maps.app.goo.gl/oxcaRcL8jVsgi45r9"> Zaitunay Bay</Link></b>
+          </p>
+          <p>
+            - Walk from Zaitunay to <b><Link to="https://maps.app.goo.gl/56BKTLVDEpU3GhTH6">Downtown</Link></b> (richest area in Beirut) 
+          </p>
+          <p>
+            - Explore the lively neighborhoods of <b><Link to="https://maps.app.goo.gl/XNRL3y5dGp29aKm99">Gemmayzeh</Link></b> and <b><Link to="https://maps.app.goo.gl/zqd528saGuDyM9Xr7">Mar Mikhael</Link></b>  known for their street art, and cafés.
+          </p>
+          <p>
+            - Experience Beirut's nightlife at one of its many bars or clubs (
+              <b><Link to="https://maps.app.goo.gl/upoMoafpGiAEJcgs6">SkyBar Beirut</Link></b>, 
+            <b><Link to="https://maps.app.goo.gl/LRV7zxxotpkS2gth7">Music Hall Beirut</Link></b>, 
+            <b><Link to = "https://maps.app.goo.gl/6oAjaXHULWLXXuDb6">Iris Beirut</Link></b>).
+          </p>
+          <p>
+
+            - <b><Link to="https://maps.app.goo.gl/KyjF4sReWvtnWmSEA">Sursock Palace</Link></b> breathtaking palace in Beirut  
+          </p>
+          <p>
+            - <b><Link to="https://maps.app.goo.gl/VDZUTss99jzgZQWZ6">National Museum</Link></b> one of its kind!  
+          </p>
+          <p>
+            - <b><Link to="https://maps.app.goo.gl/GSZEoBoxWgUNGM5v5">Mim Museum</Link></b> Amazing collection of precious stones 
+          </p>
+        </div>
+
+        </div>
+
+        <div className="daySchedule StayImg2">
+        <div className="text-contentstay">
+
+          <h3 className='WeddingTitle'>Byblos and Jeita Grotto</h3>
+          <p>
+            - Depart early for 
+            <b><Link to="https://maps.app.goo.gl/MSJL6oPAL735uEsM9"> Byblos</Link></b>,
+            one of the oldest continuously inhabited cities in the world.
+          </p>
+          <p>
+            - Explore the ancient ruins, including the Phoenician temples, Crusader castle, and souks.
+          </p>
+          <p>
+            - Head to  
+            <b> <Link to="https://maps.app.goo.gl/8WDyG5Nkc2x9Gb8q7">Bar Du Port </Link></b>
+             for a refreshing swim and relaxation by the sea.
+          </p>
+          - <b><Link to="https://maps.app.goo.gl/dyyLUZ91jjfgDLdt8">Geita Grotto</Link></b> with one of the world's largest stalactites.
           <br />
+</div>
 
-          <h1 className='text-center'>Places To Visit</h1>
-          <div className="daySchedule">
-          <h3 className='WeddingTitle'>SUNDAY (16.06.2024)</h3>
+        </div>
+
+
+        <div className="daySchedule  StayImg3">
+        <div className="text-contentstay">
+
+          <h3 className='WeddingTitle'>Faraya</h3>
           <p>
-            Daytime: Visit Beirut
-            <br />
-            - Beit Beirut: Civil War Museum <b><Link to="https://maps.app.goo.gl/7zVRxvvW7hV2gsAs5">(Link)</Link></b>
-            <br />
-            - Lunch at Zaitunay Bay <b><Link to="https://maps.app.goo.gl/oxcaRcL8jVsgi45r9">(Link)</Link></b>
-            <br />
-            - Walk from Zaitunay to Downtown (richest area in Beirut) <b><Link to="https://maps.app.goo.gl/56BKTLVDEpU3GhTH6">(Link)</Link></b>
+            -  Start your day with an <b><Link to="https://maps.app.goo.gl/j5nvLRwV1EZd2HuJA"> ATV adventure </Link></b> navigating through the mountains.
           </p>
           <p>
-            For the intellectuals / Museums to visit
-            <br />
-            - Sursock Palace: breathtaking palace in Beirut  <b><Link to="https://maps.app.goo.gl/KyjF4sReWvtnWmSEA">(Link)</Link></b>
-            <br />
-            - National Museum of Beirut: one of its kind!  <b><Link to="https://maps.app.goo.gl/VDZUTss99jzgZQWZ6">(Link)</Link></b>
-            <br />
-            - MIM Museum: Amazing collection of precious stones <b><Link to="https://maps.app.goo.gl/GSZEoBoxWgUNGM5v5">(Link)</Link></b>
-          </p>
-          </div>
-          <div className="daySchedule">
-
-          <h3 className='WeddingTitle'>Monday (17.06.2024)</h3>
-          <p>
-            Daytime:
-            <br />
-            - Jeita Grotto with one of the world's largest stalactites <b><Link to="https://maps.app.goo.gl/dyyLUZ91jjfgDLdt8">(Link)</Link></b>
-            <br />
-            - Visit Harissa Church with its amazing views  <b><Link to="https://maps.app.goo.gl/sw1fss3yUWFz5vkEA">(Link)</Link></b>
-            <br />
-            - Enjoy the Beach
-            <br />
+            - For lunch, you have two options:
+            a traditional Lebanese lunch at a local restaurant
             OR
-            <br />
-            - Visit Cedars Of God: the national symbol of Lebanon  <b><Link to="https://maps.app.goo.gl/SixYGU1GWHQw64gaA">(Link)</Link></b>
+            <b><Link to="https://maps.app.goo.gl/Y8pZDrLaXTPTtEEV8"> Montagnou </Link></b>.
           </p>
           <p>
-            - Visit the Kadisha Valley  <b><Link to="https://maps.app.goo.gl/TW5G8QYh8XLWo8K48">(Link)</Link></b>
-            <br />
-            - Pass by the Monastery of Qozhaya <b><Link to="https://en.wikipedia.org/wiki/Monastery_of_Qozhaya">(Link)</Link></b>
+            -  As the day progresses, head to one of the recommended spots for sunset: 
+            <b><Link to = "https://maps.app.goo.gl/j8tAnjNXNWiQAoup8 "> Odin </Link></b>
+            OR
+            <b><Link to="https://maps.app.goo.gl/Y8pZDrLaXTPTtEEV8"> Montagnou </Link></b>.
           </p>
-          <p>Please let us know beforehand if you want to go on this adventure as we need to book your spot.</p>
           <p>
-            Evening:
-            <br />
-            - El Molino: Mexican Restaurant <b><Link to="https://maps.app.goo.gl/YyiY4eNen4Nfoe6J8">(Link)</Link></b>
-            <br />
-            - Feniqia: Lebanese Restaurant  <b><Link to="https://maps.app.goo.gl/rujE9Z1vFx2gJBQbA">(Link)</Link></b>
-            <br />
-            - Greeco: Upscale International Restaurant <b><Link to="https://maps.app.goo.gl/9DVaS3WoiASUJop4A">(Link)</Link></b>
-            <br />
-            - Malena: Mediterranean / Fish Restaurant  <b><Link to="https://maps.app.goo.gl/v31qW6Bjx5fmT3nFA">(Link)</Link></b>
-            <br />
-            - Kina: handcraft bar <b><Link to="https://maps.app.goo.gl/n8avQmWCuV3jB8Ma9">(Link)</Link></b>
+            - For dinner, you can go for
+            <b><Link to="https://maps.app.goo.gl/mGS6M2yJV3NWi6hr5"> Sapa </Link></b>.
           </p>
+
           </div>
-          <div className="daySchedule">
+        </div>
 
-          <h3 className='WeddingTitle'>Tuesday (18.06.2024)</h3>
-          <p>
-            Daytime:
-            <br />
-            {/* - Baalbek blows the Acropolis out of the water! <b><Link to="https://maps.app.goo.gl/5FjFwSphSqUfteV96">(Link)</Link></b>
-            <br /> &*/}
-            Visit the Ksara Winery on the way and have Lunch <b><Link to="https://maps.app.goo.gl/YpqzUEBgD8s4EEMH7">(Link)</Link></b>
-          </p>
-          <p>Please let us know beforehand if you want to go on this adventure as we need to book your spot.</p>
-          <p>
-            Evening:
-            <br />
-            - El Molino: Mexican Restaurant <b><Link to="https://maps.app.goo.gl/YyiY4eNen4Nfoe6J8">(Link)</Link></b>
-            <br />
-            - Feniqia: Lebanese Restaurant  <b><Link to="https://maps.app.goo.gl/rujE9Z1vFx2gJBQbA">(Link)</Link></b>
-            <br />
-            - Greeco: Upscale International Restaurant <b><Link to="https://maps.app.goo.gl/9DVaS3WoiASUJop4A">(Link)</Link></b>
-            <br />
-            - Malena: Mediterranean / Fish Restaurant  <b><Link to="https://maps.app.goo.gl/v31qW6Bjx5fmT3nFA">(Link)</Link></b>
-            <br />
-            - Kina: handcraft bar <b><Link to="https://maps.app.goo.gl/n8avQmWCuV3jB8Ma9">(Link)</Link></b>
-          </p>
-          </div>
-          <div className="daySchedule">
 
-          <h3 className='WeddingTitle'>Wednesday (19.06.2024)</h3>
-          <p>
-            Daytime:
-            <br />
-            Up in the Mountains: Visit the Shouf area with its amazing views and historical villages <b><Link to="https://maps.app.goo.gl/ioRxw3jTmEbACHzM8">(Link)</Link></b>: Deir al Qamar <b><Link to="https://maps.app.goo.gl/12sxejJeC3VkPKqB9">(Link)</Link></b> and Beit el Dine <b><Link to="https://maps.app.goo.gl/ShCLjyWxRMeLdqbj8">(Link)</Link></b>. Show Me Lebanon will take you to amazing local experiences and feed you the best local Lebanese food.
-          </p>
-          <p>Please let us know beforehand if you want to go on this adventure as we need to book your spot.</p>
-          <p>
-            Evening:
-            <br />
-            - El Molino: Mexican Restaurant <b><Link to="https://maps.app.goo.gl/YyiY4eNen4Nfoe6J8">(Link)</Link></b>
-            <br />
-            - Feniqia: Lebanese Restaurant  <b><Link to="https://maps.app.goo.gl/rujE9Z1vFx2gJBQbA">(Link)</Link></b>
-            <br />
-            - Greeco: Upscale International Restaurant <b><Link to="https://maps.app.goo.gl/9DVaS3WoiASUJop4A">(Link)</Link></b>
-            <br />
-            - Malena: Mediterranean / Fish Restaurant  <b><Link to="https://maps.app.goo.gl/v31qW6Bjx5fmT3nFA">(Link)</Link></b>
-            <br />
-            - Kina: handcraft bar <b><Link to="https://maps.app.goo.gl/n8avQmWCuV3jB8Ma9">(Link)</Link></b>
-          </p>
-          </div>
-          <div className="daySchedule">
+        <div className="daySchedule StayImg4">
+        <div className="text-contentstay">
 
-          <h3 className='WeddingTitle'>Thursday (20.06.2024)</h3>
+          <h3 className='WeddingTitle'>Batroun</h3>
           <p>
-            Daytime:
-            <br />
-            Discover the beautiful Beach Village of Batroun <b><Link to="https://maps.app.goo.gl/W5jPYcLNrxeGc6Dh7">(Link)</Link></b>:
-            <br />
-            - Drink the world-famous lemonade at Hilmi's <b><Link to="https://maps.app.goo.gl/rz18gT2w1oK27ErD6">(Link)</Link></b>
-            <br />
-            - Have a beer at the Colonel Brewery and Distillery <b><Link to="https://maps.app.goo.gl/q7LMQ7Xh2ghUtto79">(Link)</Link></b>
-            <br />
-            - Enjoy the views from the Lady of the Sea Church <b><Link to="https://maps.app.goo.gl/qihXhurpnTaMrfkE9">(Link)</Link></b>
-            <br />
-
-            Enjoy Sunset Drinks at Pierre & Friends <b><Link to="https://maps.app.goo.gl/jJdSkMN1Sqf8vw4Q7">(Link)</Link></b>
-          </p>
-
-            </div>
-            <div className="daySchedule">
-
-          <h3 className='WeddingTitle'>Friday (21.06.2024)</h3>
-          <p>
-            Daytime:
-            <br />
-            Enjoy one day off (if you are bored - let us know!)
+            - Start your day by visiting the intact 
+            <b><Link to= "https://maps.app.goo.gl/7vUZAgJpxr5zvdyRA"> Phoenician wall </Link></b>.
           </p>
           <p>
-            Evening / Dinner Options
-            <br />
-            - El Molino: Mexican Restaurant <b><Link to="https://maps.app.goo.gl/YyiY4eNen4Nfoe6J8">(Link)</Link></b>
-            <br />
-            - Feniqia: Lebanese Restaurant  <b><Link to="https://maps.app.goo.gl/rujE9Z1vFx2gJBQbA">(Link)</Link></b>
-            <br />
-            - Greeco: Upscale International Restaurant <b><Link to="https://maps.app.goo.gl/9DVaS3WoiASUJop4A">(Link)</Link></b>
-            <br />
-            - Malena: Mediterranean / Fish Restaurant  <b><Link to="https://maps.app.goo.gl/v31qW6Bjx5fmT3nFA">(Link)</Link></b>
-            <br />
-            - Kina: handcraft bar <b><Link to="https://maps.app.goo.gl/n8avQmWCuV3jB8Ma9">(Link)</Link></b>
-          </p>
-          </div>
-          <div className="daySchedule">
+            - Explore the old souk and narrow winding streets of Batroun especially
+            Batroun's ancient churches, such as
+            <b><Link to= "https://maps.app.goo.gl/mG9pWPJfeEjT3NUf9"> St. Stephan's Cathedral </Link></b>
+              and
+            <b><Link to= "https://maps.app.goo.gl/MjRe3W2gxEHFLYD76"> St. George's Church </Link></b>.
 
-          <h3 className='WeddingTitle'>Saturday (22.06.2024)</h3>
-          <p>
-
-            {/* linksssssssssssssssssssssss not donee */}
-            Daytime:
-            <br />
-            - Get your tan ready at Le Phenix De Byblos <b><Link to="https://maps.app.goo.gl/E28J9Zw7Yya2v6yG8">(Link)</Link></b>
-            <br />
-            - Visit the Byblos Citadel <b><Link to="https://maps.app.goo.gl/GzPoh39YKv5wUeEh7">(Link)</Link></b>
-            <br />
-            - Visit the old Souk <b><Link to="https://maps.app.goo.gl/jXn91TQ4jnUJv3V39">(Link)</Link></b>
-            <br />
-
-            - Visit the Byblos Fishermen's Port <b><Link to="https://maps.app.goo.gl/H1BG3K3CBVCbYtz5A">(Link)</Link></b>
+          .
           </p>
           <p>
-            Evening: Wedding Party
+            - Spend the afternoon at the
+            <b><Link to= "https://maps.app.goo.gl/SLBJMSrw96btkThKA"> Nabu Museum </Link></b>.
+            <br /> Don't miss the rooftop terrace for panoramic views of the town and coastline.
           </p>
-          </div>
+          <p>
+            - Head to the coast to relax and enjoy Batroun's pristine beaches, such as
+           
+            <b><Link to= "https://maps.app.goo.gl/qZxt7AQxegBCt6yr9">  Butler's Beach Club </Link></b>
+
+            OR
+            <b><Link to= "https://maps.app.goo.gl/SPeskq5SeVyT3KaEA"> Almaza Bay</Link></b>.
+          </p>
+          - Batroun's popular bars for a memorable sunset experience. Options include
           
+          <b><Link to= "https://maps.app.goo.gl/JAtFMBTWhJdrTGuq8">  Pierre and Friends </Link></b>,
+
+          
+          <b><Link to= "https://maps.app.goo.gl/ZpsZqch3jZXbF3rTA">  Boléro </Link></b>, and
+
+          
+          <b><Link to= "https://maps.app.goo.gl/mfk6xytYXCSAo3NS6"> Colonel Brewery </Link></b>.
+
+          <p>
+
+          </p>
+        </div>
         </div>
 
-        <div className="images">
-          <img src={img1} alt="Image 1" />
-          <img src={img2} alt="Image 2" />
-          <img src={img3} alt="Image 3" />
-          <img src={img4} alt="Image 4" />
-          <img src={img5} alt="Image 5" />
-          <img src={img6} alt="Image 6" />
-          <img src={img7} alt="Image 7" />
-          <img src={img8} alt="Image 8" />
-          <img src={img9} alt="Image 9" />
-          <img src={img10} alt="Image 10" />
-          <img src={img11} alt="Image 11" />
-          <img src={img12} alt="Image 12" />
-          <img src={img13} alt="Image 13" />
-          <img src={img14} alt="Image 14" />
-          <img src={img15} alt="Image 15" />
-          <img src={img16} alt="Image 16" />
-          <img src={img17} alt="Image 17" />
-          <img src={img19} alt="Image 19" />
-          <img src={img20} alt="Image 20" />
-          <img src={img21} alt="Image 21" />
-          <img src={img22} alt="Image 22" />
-          <img src={img23} alt="Image 23" />
-          <img src={img24} alt="Image 24" />
-          <img src={img25} alt="Image 25" />
+
+        <div className="daySchedule StayImg5">
+        <div className="text-contentstay">
+
+          <h3 className='WeddingTitle'>Ehden & Bcharré</h3>
+          <p>
+            - head towards the village of 
+            <b><Link to="https://maps.app.goo.gl/mmVdAwP2zxA6qkcg6"> Ehden </Link></b> 
+            (MARK'S VILLAGE), known for its stunning natural beauty and rich cultural heritage.
+          </p>
+          <p>
+            - Begin your day with a hike in Ehden, which is surrounded by lush forests and stunning mountain views.
+          </p>
+          <p>
+            -  Enjoy a traditional Lebanese lunch at a local restaurant in Ehden.
+          </p>
+          <p>
+            - Continue your outdoor adventure by exploring the stunning nature and cultural heritage of the
+            <b><Link to="https://maps.app.goo.gl/5bGgXdWGv1wkJfCa6"> Kadisha Valley </Link></b> 
+            and
+            <b><Link to="https://maps.app.goo.gl/zJeiH5zLamceMMb77"> Deir Qannoubine </Link></b> 
+
+          </p>
+</div>
         </div>
+        <div className="daySchedule StayImg6">
+        <div className="text-contentstay">
+
+          <h3 className='WeddingTitle'>Akoura</h3>
+          <p>
+            - Start your day in 
+            <b><Link to="https://maps.app.goo.gl/qnLWB9u61STjeLb5A"> Aaqoura </Link></b>
+             (MARINA'S VILLAGE) surrounded by scenic beauty and tranquil nature.
+          </p>
+          <p>
+            - Discover the beautiful 
+             <b><Link to="https://maps.app.goo.gl/tYHKJ3Kz7PFSZa739"> lakes </Link></b>
+             and scenic trails of Akoura, which provide stunning views of the mountains and valleys, perfect for hiking at various difficulty levels.
+          </p>
+          <p>
+            - Dive deeper into nature by exploring the area on ATVs.
+          </p>
+        </div>
+        </div>
+        <div className="daySchedule StayImg7">
+        <div className="text-contentstay">
+
+          <h3 className='WeddingTitle'>Cedars of God and Kozhaya</h3>
+          <p>
+            - Depart early for the 
+            <b><Link to="https://maps.app.goo.gl/Koahhkz6dr7aFQU69"> Cedars of God </Link></b>  
+            in the
+            Kadisha Valley,
+            home to some of the oldest cedar trees in the world.
+          </p>
+          <p>
+            - Visit the
+            <b><Link to="https://maps.app.goo.gl/my85uKSQ9VdBiAQt6"> Gibran Museum </Link></b>  
+
+            in Bsharri, dedicated to the Lebanese-American poet Khalil Gibran.
+          </p>
+
+          <p>
+            - Have lunch in a traditional Lebanese restaurant.
+          </p>
+          <p>
+            - Visit the 
+            <b><Link to="https://maps.app.goo.gl/EmNGQVoFAB8iLLns8"> Monastery of Saint Anthony </Link></b>
+            of Qozhaya, a historic monastery nestled in the mountains.
+
+          </p>
+        </div>
+        </div>
+
       </div>
+
+      <div className="images">
+        <img src={img1} alt="Image 1" />
+        <img src={img2} alt="Image 2" />
+        <img src={img3} alt="Image 3" />
+        <img src={img4} alt="Image 4" />
+        <img src={img5} alt="Image 5" />
+        <img src={img6} alt="Image 6" />
+        <img src={img7} alt="Image 7" />
+        <img src={img8} alt="Image 8" />
+        <img src={img9} alt="Image 9" />
+        <img src={img10} alt="Image 10" />
+        <img src={img11} alt="Image 11" />
+        <img src={img12} alt="Image 12" />
+        <img src={img13} alt="Image 13" />
+        <img src={img14} alt="Image 14" />
+        <img src={img15} alt="Image 15" />
+        <img src={img16} alt="Image 16" />
+        <img src={img17} alt="Image 17" />
+        <img src={img19} alt="Image 19" />
+        <img src={img20} alt="Image 20" />
+        <img src={img21} alt="Image 21" />
+        <img src={img22} alt="Image 22" />
+        <img src={img23} alt="Image 23" />
+        <img src={img24} alt="Image 24" />
+        <img src={img25} alt="Image 25" />
+      </div>
+    </div>
   );
 };
 
