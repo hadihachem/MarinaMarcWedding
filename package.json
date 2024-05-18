@@ -1,7 +1,7 @@
 {
   "name": "marina-marc-wedding",
   "version": "0.1.0",
-  "homepage": "https://hadihachem.github.io/WeddingMarinaMarc",
+  "homepage": "https://hadihachem.github.io/MarinaMarcWedding",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
