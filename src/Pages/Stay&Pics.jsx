@@ -32,7 +32,9 @@ import img25 from '../Components/Images/25.webp';
 
 
 const StayPics = () => {
+  
   return (
+    
     <div className="container">
        
       <div className="StayText stay">
@@ -48,29 +50,29 @@ const StayPics = () => {
           <h2 className='WeddingTitle'>Beyrouth</h2>
           <p>
 
-            - Lunch at <b><Link to="https://maps.app.goo.gl/oxcaRcL8jVsgi45r9"> Zaitunay Bay</Link></b>
+            - Lunch at <b className='links'><Link to="https://maps.app.goo.gl/oxcaRcL8jVsgi45r9"> Zaitunay Bay</Link></b>
           </p>
           <p>
-            - Walk from Zaitunay to <b><Link to="https://maps.app.goo.gl/56BKTLVDEpU3GhTH6">Downtown</Link></b> (richest area in Beirut) 
+            - Walk from Zaitunay to <b className='links'><Link to="https://maps.app.goo.gl/56BKTLVDEpU3GhTH6">Downtown</Link></b> (richest area in Beirut) 
           </p>
           <p>
-            - Explore the lively neighborhoods of <b><Link to="https://maps.app.goo.gl/XNRL3y5dGp29aKm99">Gemmayzeh</Link></b> and <b><Link to="https://maps.app.goo.gl/zqd528saGuDyM9Xr7">Mar Mikhael</Link></b>  known for their street art, and cafés.
+            - Explore the lively neighborhoods of <b className='links'><Link to="https://maps.app.goo.gl/XNRL3y5dGp29aKm99">Gemmayzeh</Link></b> and <b className='links'><Link to="https://maps.app.goo.gl/zqd528saGuDyM9Xr7">Mar Mikhael</Link></b>  known for their street art, and cafés.
           </p>
           <p>
             - Experience Beirut's nightlife at one of its many bars or clubs (
-              <b><Link to="https://maps.app.goo.gl/upoMoafpGiAEJcgs6">SkyBar Beirut</Link></b>, 
-            <b><Link to="https://maps.app.goo.gl/LRV7zxxotpkS2gth7">Music Hall Beirut</Link></b>, 
-            <b><Link to = "https://maps.app.goo.gl/6oAjaXHULWLXXuDb6">Iris Beirut</Link></b>).
+              <b className='links'><Link to="https://maps.app.goo.gl/upoMoafpGiAEJcgs6">SkyBar Beirut</Link></b>, 
+            <b className='links'><Link to="https://maps.app.goo.gl/LRV7zxxotpkS2gth7">Music Hall Beirut</Link></b>, 
+            <b className='links'><Link to = "https://maps.app.goo.gl/6oAjaXHULWLXXuDb6">Iris Beirut</Link></b>).
           </p>
           <p>
 
-            - <b><Link to="https://maps.app.goo.gl/KyjF4sReWvtnWmSEA">Sursock Palace</Link></b> breathtaking palace in Beirut  
+            - <b className='links'><Link to="https://maps.app.goo.gl/KyjF4sReWvtnWmSEA">Sursock Palace</Link></b> breathtaking palace in Beirut  
           </p>
           <p>
-            - <b><Link to="https://maps.app.goo.gl/VDZUTss99jzgZQWZ6">National Museum</Link></b> one of its kind!  
+            - <b className='links'><Link to="https://maps.app.goo.gl/VDZUTss99jzgZQWZ6">National Museum</Link></b> one of its kind!  
           </p>
           <p>
-            - <b><Link to="https://maps.app.goo.gl/GSZEoBoxWgUNGM5v5">Mim Museum</Link></b> Amazing collection of precious stones 
+            - <b className='links'><Link to="https://maps.app.goo.gl/GSZEoBoxWgUNGM5v5">Mim Museum</Link></b> Amazing collection of precious stones 
           </p>
         </div>
 
@@ -82,7 +84,7 @@ const StayPics = () => {
           <h3 className='WeddingTitle'>Byblos and Jeita Grotto</h3>
           <p>
             - Depart early for 
-            <b><Link to="https://maps.app.goo.gl/MSJL6oPAL735uEsM9"> Byblos</Link></b>,
+            <b className='links'><Link to="https://maps.app.goo.gl/MSJL6oPAL735uEsM9"> Byblos</Link></b>,
             one of the oldest continuously inhabited cities in the world.
           </p>
           <p>
@@ -90,11 +92,11 @@ const StayPics = () => {
           </p>
           <p>
             - Head to  
-            <b> <Link to="https://maps.app.goo.gl/8WDyG5Nkc2x9Gb8q7">Bar Du Port </Link></b>
+            <b className='links'> <Link to="https://maps.app.goo.gl/8WDyG5Nkc2x9Gb8q7">Bar Du Port </Link></b>
              for a refreshing swim and relaxation by the sea.
           </p>
-          - <b><Link to="https://maps.app.goo.gl/dyyLUZ91jjfgDLdt8">Geita Grotto</Link></b> with one of the world's largest stalactites.
-          <br />
+          - <b className='links'><Link to="https://maps.app.goo.gl/dyyLUZ91jjfgDLdt8">Geita Grotto</Link></b> with one of the world's largest stalactites.
+          <b className='links'r />
 </div>
 
         </div>
@@ -105,23 +107,23 @@ const StayPics = () => {
 
           <h3 className='WeddingTitle'>Faraya</h3>
           <p>
-            -  Start your day with an <b><Link to="https://maps.app.goo.gl/j5nvLRwV1EZd2HuJA"> ATV adventure </Link></b> navigating through the mountains.
+            -  Start your day with an <b className='links'><Link to="https://maps.app.goo.gl/j5nvLRwV1EZd2HuJA"> ATV adventure </Link></b> navigating through the mountains.
           </p>
           <p>
             - For lunch, you have two options:
             a traditional Lebanese lunch at a local restaurant
             OR
-            <b><Link to="https://maps.app.goo.gl/Y8pZDrLaXTPTtEEV8"> Montagnou </Link></b>.
+            <b className='links'><Link to="https://maps.app.goo.gl/Y8pZDrLaXTPTtEEV8"> Montagnou </Link></b>.
           </p>
           <p>
             -  As the day progresses, head to one of the recommended spots for sunset: 
-            <b><Link to = "https://maps.app.goo.gl/j8tAnjNXNWiQAoup8 "> Odin </Link></b>
+            <b className='links'><Link to = "https://maps.app.goo.gl/j8tAnjNXNWiQAoup8 "> Odin </Link></b>
             OR
-            <b><Link to="https://maps.app.goo.gl/Y8pZDrLaXTPTtEEV8"> Montagnou </Link></b>.
+            <b className='links'><Link to="https://maps.app.goo.gl/Y8pZDrLaXTPTtEEV8"> Montagnou </Link></b>.
           </p>
           <p>
             - For dinner, you can go for
-            <b><Link to="https://maps.app.goo.gl/mGS6M2yJV3NWi6hr5"> Sapa </Link></b>.
+            <b className='links'><Link to="https://maps.app.goo.gl/mGS6M2yJV3NWi6hr5"> Sapa </Link></b>.
           </p>
 
           </div>
@@ -134,39 +136,39 @@ const StayPics = () => {
           <h3 className='WeddingTitle'>Batroun</h3>
           <p>
             - Start your day by visiting the intact 
-            <b><Link to= "https://maps.app.goo.gl/7vUZAgJpxr5zvdyRA"> Phoenician wall </Link></b>.
+            <b className='links'><Link to= "https://maps.app.goo.gl/7vUZAgJpxr5zvdyRA"> Phoenician wall </Link></b>.
           </p>
           <p>
             - Explore the old souk and narrow winding streets of Batroun especially
             Batroun's ancient churches, such as
-            <b><Link to= "https://maps.app.goo.gl/mG9pWPJfeEjT3NUf9"> St. Stephan's Cathedral </Link></b>
+            <b className='links'><Link to= "https://maps.app.goo.gl/mG9pWPJfeEjT3NUf9"> St. Stephan's Cathedral </Link></b>
               and
-            <b><Link to= "https://maps.app.goo.gl/MjRe3W2gxEHFLYD76"> St. George's Church </Link></b>.
+            <b className='links'><Link to= "https://maps.app.goo.gl/MjRe3W2gxEHFLYD76"> St. George's Church </Link></b>.
 
           .
           </p>
           <p>
             - Spend the afternoon at the
-            <b><Link to= "https://maps.app.goo.gl/SLBJMSrw96btkThKA"> Nabu Museum </Link></b>.
-            <br /> Don't miss the rooftop terrace for panoramic views of the town and coastline.
+            <b className='links'><Link to= "https://maps.app.goo.gl/SLBJMSrw96btkThKA"> Nabu Museum </Link></b>.
+            <b className='links'r /> Don't miss the rooftop terrace for panoramic views of the town and coastline.
           </p>
           <p>
             - Head to the coast to relax and enjoy Batroun's pristine beaches, such as
            
-            <b><Link to= "https://maps.app.goo.gl/qZxt7AQxegBCt6yr9">  Butler's Beach Club </Link></b>
+            <b className='links'><Link to= "https://maps.app.goo.gl/qZxt7AQxegBCt6yr9">  Butler's Beach Club </Link></b>
 
             OR
-            <b><Link to= "https://maps.app.goo.gl/SPeskq5SeVyT3KaEA"> Almaza Bay</Link></b>.
+            <b className='links'><Link to= "https://maps.app.goo.gl/SPeskq5SeVyT3KaEA"> Almaza Bay</Link></b>.
           </p>
           - Batroun's popular bars for a memorable sunset experience. Options include
           
-          <b><Link to= "https://maps.app.goo.gl/JAtFMBTWhJdrTGuq8">  Pierre and Friends </Link></b>,
+          <b className='links'><Link to= "https://maps.app.goo.gl/JAtFMBTWhJdrTGuq8">  Pierre and Friends </Link></b>,
 
           
-          <b><Link to= "https://maps.app.goo.gl/ZpsZqch3jZXbF3rTA">  Boléro </Link></b>, and
+          <b className='links'><Link to= "https://maps.app.goo.gl/ZpsZqch3jZXbF3rTA">  Boléro </Link></b>, and
 
           
-          <b><Link to= "https://maps.app.goo.gl/mfk6xytYXCSAo3NS6"> Colonel Brewery </Link></b>.
+          <b className='links'><Link to= "https://maps.app.goo.gl/mfk6xytYXCSAo3NS6"> Colonel Brewery </Link></b>.
 
           <p>
 
@@ -181,7 +183,7 @@ const StayPics = () => {
           <h3 className='WeddingTitle'>Ehden & Bcharré</h3>
           <p>
             - head towards the village of 
-            <b><Link to="https://maps.app.goo.gl/mmVdAwP2zxA6qkcg6"> Ehden </Link></b> 
+            <b className='links'><Link to="https://maps.app.goo.gl/mmVdAwP2zxA6qkcg6"> Ehden </Link></b> 
             (MARK'S VILLAGE), known for its stunning natural beauty and rich cultural heritage.
           </p>
           <p>
@@ -192,9 +194,9 @@ const StayPics = () => {
           </p>
           <p>
             - Continue your outdoor adventure by exploring the stunning nature and cultural heritage of the
-            <b><Link to="https://maps.app.goo.gl/5bGgXdWGv1wkJfCa6"> Kadisha Valley </Link></b> 
+            <b className='links'><Link to="https://maps.app.goo.gl/5bGgXdWGv1wkJfCa6"> Kadisha Valley </Link></b> 
             and
-            <b><Link to="https://maps.app.goo.gl/zJeiH5zLamceMMb77"> Deir Qannoubine </Link></b> 
+            <b className='links'><Link to="https://maps.app.goo.gl/zJeiH5zLamceMMb77"> Deir Qannoubine </Link></b> 
 
           </p>
 </div>
@@ -205,12 +207,12 @@ const StayPics = () => {
           <h3 className='WeddingTitle'>Akoura</h3>
           <p>
             - Start your day in 
-            <b><Link to="https://maps.app.goo.gl/qnLWB9u61STjeLb5A"> Aaqoura </Link></b>
+            <b className='links'><Link to="https://maps.app.goo.gl/qnLWB9u61STjeLb5A"> Aaqoura </Link></b>
              (MARINA'S VILLAGE) surrounded by scenic beauty and tranquil nature.
           </p>
           <p>
             - Discover the beautiful 
-             <b><Link to="https://maps.app.goo.gl/tYHKJ3Kz7PFSZa739"> lakes </Link></b>
+             <b className='links'><Link to="https://maps.app.goo.gl/tYHKJ3Kz7PFSZa739"> lakes </Link></b>
              and scenic trails of Akoura, which provide stunning views of the mountains and valleys, perfect for hiking at various difficulty levels.
           </p>
           <p>
@@ -224,14 +226,14 @@ const StayPics = () => {
           <h3 className='WeddingTitle'>Cedars of God and Kozhaya</h3>
           <p>
             - Depart early for the 
-            <b><Link to="https://maps.app.goo.gl/Koahhkz6dr7aFQU69"> Cedars of God </Link></b>  
+            <b className='links'><Link to="https://maps.app.goo.gl/Koahhkz6dr7aFQU69"> Cedars of God </Link></b>  
             in the
             Kadisha Valley,
             home to some of the oldest cedar trees in the world.
           </p>
           <p>
             - Visit the
-            <b><Link to="https://maps.app.goo.gl/my85uKSQ9VdBiAQt6"> Gibran Museum </Link></b>  
+            <b className='links'><Link to="https://maps.app.goo.gl/my85uKSQ9VdBiAQt6"> Gibran Museum </Link></b>  
 
             in Bsharri, dedicated to the Lebanese-American poet Khalil Gibran.
           </p>
@@ -241,7 +243,7 @@ const StayPics = () => {
           </p>
           <p>
             - Visit the 
-            <b><Link to="https://maps.app.goo.gl/EmNGQVoFAB8iLLns8"> Monastery of Saint Anthony </Link></b>
+            <b className='links'><Link to="https://maps.app.goo.gl/EmNGQVoFAB8iLLns8"> Monastery of Saint Anthony </Link></b>
             of Qozhaya, a historic monastery nestled in the mountains.
 
           </p>
@@ -277,7 +279,14 @@ const StayPics = () => {
         <img src={img25} alt="Image 25" />
       </div>
     </div>
+    
   );
+  const styles = {
+    links: {
+      color: 'blue',
+      backgroundColor:"black",
+    }
+  }
 };
 
 export default StayPics;
