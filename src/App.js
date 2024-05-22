@@ -9,10 +9,11 @@ import WeddingParty from './Pages/WeddingParty';
 import './index.css';
 import Footer from './Components/Footer/Footer';
 
+
 function App() {
   return (
     <div className="App">
-      <Router basename="MarinaMarcWedding">
+      <Router>
         <Header />
         <Navbar />
         <Routes>
