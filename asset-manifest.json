@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MarinaMarcWedding/static/css/main.78572bd3.css",
-    "main.js": "/MarinaMarcWedding/static/js/main.f4eea782.js",
+    "main.css": "/MarinaMarcWedding/static/css/main.b52df989.css",
+    "main.js": "/MarinaMarcWedding/static/js/main.1490f618.js",
     "static/js/592.c8e49e22.chunk.js": "/MarinaMarcWedding/static/js/592.c8e49e22.chunk.js",
     "static/media/cedars.jpeg": "/MarinaMarcWedding/static/media/cedars.314ad4dd61da656280eb.jpeg",
     "static/media/byblos.jpg": "/MarinaMarcWedding/static/media/byblos.c00d182c5bb405681f73.jpg",
@@ -42,12 +42,12 @@
     "static/media/23.webp": "/MarinaMarcWedding/static/media/23.db94410f90f5fcf84ce3.webp",
     "static/media/14.webp": "/MarinaMarcWedding/static/media/14.1ae0e34a36e2ac30f0be.webp",
     "index.html": "/MarinaMarcWedding/index.html",
-    "main.78572bd3.css.map": "/MarinaMarcWedding/static/css/main.78572bd3.css.map",
-    "main.f4eea782.js.map": "/MarinaMarcWedding/static/js/main.f4eea782.js.map",
+    "main.b52df989.css.map": "/MarinaMarcWedding/static/css/main.b52df989.css.map",
+    "main.1490f618.js.map": "/MarinaMarcWedding/static/js/main.1490f618.js.map",
     "592.c8e49e22.chunk.js.map": "/MarinaMarcWedding/static/js/592.c8e49e22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78572bd3.css",
-    "static/js/main.f4eea782.js"
+    "static/css/main.b52df989.css",
+    "static/js/main.1490f618.js"
   ]
 }
